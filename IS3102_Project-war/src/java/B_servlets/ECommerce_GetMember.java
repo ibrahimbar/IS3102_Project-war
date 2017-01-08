@@ -24,7 +24,7 @@ import javax.ws.rs.core.Response;
 
 /**
  *
- * @author Arunesh
+ * @author Zheng Han
  */
 @WebServlet(name = "ECommerce_GetMember", urlPatterns = {"/ECommerce_GetMember"})
 public class ECommerce_GetMember extends HttpServlet {
