@@ -6,6 +6,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.List;"%>
 <jsp:include page="checkCountry.jsp" />
+
 <% 
 Boolean isMemberLoggedIn = false;
     String memberEmail = (String) (session.getAttribute("memberEmail"));
@@ -15,6 +16,7 @@ Boolean isMemberLoggedIn = false;
         isMemberLoggedIn = true;
     }
 %>
+
 <html> 
     <jsp:include page="header.html" />
     <body>
